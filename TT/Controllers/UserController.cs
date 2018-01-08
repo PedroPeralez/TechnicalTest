@@ -9,7 +9,8 @@ using TT.Services;
 
 namespace TT.Controllers
 {
-    //The controller handles client requests, but no business logic should be present on this level.
+    //The controller handles client requests, but no business logic should be present on this level, the bussiness logic belongs
+    //in the service layer.
 
     [RoutePrefix("api/user")]
     public class UserController : ApiController
